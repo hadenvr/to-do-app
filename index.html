@@ -4,15 +4,22 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>To-Do App</title>
+
+  <!-- Material Design Lite -->
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-deep_purple.min.css" />
+
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+  <link rel="stylesheet" href="./style/main.css">
 </head>
 
 <body>
-  <h1>To-Do App</h1>
+  <h1>To-Do List</h1>
 
   <form id="addToDoForm">
-    <label for="newToDoText">New To-Do:</label>
+    <label for="newToDoText">Type New Task:</label>
     <input type="text" id="newToDoText">
-    <button type="submit">Add To-Do!</button>
+    <button type="submit">Add Task</button>
   </form>
 
   <ul id="toDoList">
